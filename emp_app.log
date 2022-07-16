@@ -1,0 +1,781 @@
+20:00:36,822 root INFO Starting app
+20:00:36,860 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:00:36,863 werkzeug INFO  * Restarting with stat
+20:00:37,333 root INFO Starting app
+20:00:37,346 werkzeug WARNING  * Debugger is active!
+20:00:37,352 werkzeug INFO  * Debugger PIN: 125-288-098
+20:00:50,117 root INFO Started app
+20:00:50,188 root INFO Started app
+20:00:51,211 root INFO Starting app
+20:00:51,355 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:00:51,357 werkzeug INFO  * Restarting with stat
+20:00:51,976 root INFO Starting app
+20:00:51,989 werkzeug WARNING  * Debugger is active!
+20:00:51,995 werkzeug INFO  * Debugger PIN: 125-288-098
+20:01:50,90 root INFO Started app
+20:01:50,163 root INFO Started app
+20:01:50,866 root INFO Starting app
+20:01:50,895 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:01:50,898 werkzeug INFO  * Restarting with stat
+20:01:51,362 root INFO Starting app
+20:01:51,375 werkzeug WARNING  * Debugger is active!
+20:01:51,381 werkzeug INFO  * Debugger PIN: 125-288-098
+20:19:15,364 root INFO Started app
+20:19:15,497 root INFO Started app
+20:19:18,890 root INFO Starting app
+20:19:18,935 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:19:18,945 werkzeug INFO  * Restarting with stat
+20:19:20,958 root INFO Starting app
+20:19:20,977 werkzeug WARNING  * Debugger is active!
+20:19:20,993 werkzeug INFO  * Debugger PIN: 125-288-098
+20:24:11,243 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_details.py', reloading
+20:24:11,410 werkzeug INFO  * Restarting with stat
+20:24:14,883 root INFO Starting app
+20:24:14,899 werkzeug WARNING  * Debugger is active!
+20:24:14,914 werkzeug INFO  * Debugger PIN: 125-288-098
+20:28:30,978 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_details.py', reloading
+20:28:31,326 werkzeug INFO  * Restarting with stat
+20:28:34,258 root INFO Starting app
+20:28:34,276 werkzeug WARNING  * Debugger is active!
+20:28:34,293 werkzeug INFO  * Debugger PIN: 125-288-098
+20:30:10,553 root INFO Started app
+20:30:10,740 root INFO Started app
+08:44:02,348 root INFO Starting app
+08:44:02,384 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:44:02,387 werkzeug INFO  * Restarting with stat
+08:44:03,34 root INFO Starting app
+08:44:03,66 werkzeug WARNING  * Debugger is active!
+08:44:03,87 werkzeug INFO  * Debugger PIN: 125-288-098
+08:46:31,867 root INFO Started app
+08:46:31,938 root INFO Started app
+08:46:33,371 root INFO Starting app
+08:46:33,410 werkzeug INFO  * Running on http://localhost:5002 (Press CTRL+C to quit)
+08:46:33,417 werkzeug INFO  * Restarting with stat
+08:46:34,145 root INFO Starting app
+08:46:34,159 werkzeug WARNING  * Debugger is active!
+08:46:34,166 werkzeug INFO  * Debugger PIN: 125-288-098
+08:49:18,183 root INFO Started app
+08:49:18,253 root INFO Started app
+08:49:19,204 root INFO Starting app
+08:49:19,254 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:49:19,257 werkzeug INFO  * Restarting with stat
+08:49:19,881 root INFO Starting app
+08:49:19,895 werkzeug WARNING  * Debugger is active!
+08:49:19,902 werkzeug INFO  * Debugger PIN: 125-288-098
+08:50:00,253 root INFO Started app
+08:50:00,326 root INFO Started app
+08:50:01,56 root INFO Starting app
+08:50:01,119 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:50:01,123 werkzeug INFO  * Restarting with stat
+08:50:01,804 root INFO Starting app
+08:50:01,817 werkzeug WARNING  * Debugger is active!
+08:50:01,823 werkzeug INFO  * Debugger PIN: 125-288-098
+08:53:33,270 root INFO Started app
+08:53:33,327 root INFO Started app
+08:53:45,622 root INFO Starting app
+08:53:45,657 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:53:45,662 werkzeug INFO  * Restarting with stat
+08:53:48,840 root INFO Starting app
+08:53:48,913 werkzeug WARNING  * Debugger is active!
+08:53:48,965 werkzeug INFO  * Debugger PIN: 125-288-098
+08:53:55,124 root INFO Started app
+08:53:55,255 root INFO Started app
+08:54:23,394 root INFO Starting app
+08:54:31,448 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:54:31,457 werkzeug INFO  * Restarting with stat
+08:54:37,322 root INFO Starting app
+08:55:36,652 werkzeug WARNING  * Debugger is active!
+08:55:36,664 werkzeug INFO  * Debugger PIN: 125-288-098
+08:55:57,415 root INFO Started app
+08:56:07,336 root INFO Started app
+08:57:06,889 root INFO Starting app
+08:57:06,917 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+08:57:06,919 werkzeug INFO  * Restarting with stat
+08:57:07,450 root INFO Starting app
+08:57:07,464 werkzeug WARNING  * Debugger is active!
+08:57:07,470 werkzeug INFO  * Debugger PIN: 125-288-098
+09:05:28,168 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:05:28,259 werkzeug INFO  * Restarting with stat
+09:05:28,470 werkzeug INFO  * Running on http://localhost:5001 (Press CTRL+C to quit)
+09:05:28,473 werkzeug INFO  * Restarting with stat
+09:05:29,99 root INFO Starting app
+09:05:29,117 werkzeug WARNING  * Debugger is active!
+09:05:29,124 werkzeug INFO  * Debugger PIN: 125-288-098
+09:05:29,308 werkzeug WARNING  * Debugger is active!
+09:05:29,315 werkzeug INFO  * Debugger PIN: 125-288-098
+09:06:45,371 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:06:45,467 werkzeug INFO  * Restarting with stat
+09:06:46,185 root INFO Starting app
+09:06:46,202 werkzeug WARNING  * Debugger is active!
+09:06:46,209 werkzeug INFO  * Debugger PIN: 125-288-098
+09:06:59,212 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:06:59,281 werkzeug INFO  * Restarting with stat
+09:06:59,838 root INFO Starting app
+09:06:59,853 werkzeug WARNING  * Debugger is active!
+09:06:59,859 werkzeug INFO  * Debugger PIN: 125-288-098
+09:08:27,94 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:08:27,212 werkzeug INFO  * Restarting with stat
+09:08:28,105 root INFO Starting app
+09:08:28,125 werkzeug WARNING  * Debugger is active!
+09:08:28,133 werkzeug INFO  * Debugger PIN: 125-288-098
+09:15:12,100 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:15:12,141 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+09:15:12,144 werkzeug INFO  * Restarting with stat
+09:15:12,178 werkzeug INFO  * Restarting with stat
+09:15:12,723 werkzeug WARNING  * Debugger is active!
+09:15:12,727 root INFO Starting app
+09:15:12,729 werkzeug INFO  * Debugger PIN: 125-288-098
+09:15:12,742 werkzeug WARNING  * Debugger is active!
+09:15:12,748 werkzeug INFO  * Debugger PIN: 125-288-098
+09:34:02,302 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_service.py', reloading
+09:34:02,302 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_service.py', reloading
+09:34:02,461 werkzeug INFO  * Restarting with stat
+09:34:02,469 werkzeug INFO  * Restarting with stat
+09:34:03,717 root INFO Starting app
+09:34:03,739 werkzeug WARNING  * Debugger is active!
+09:34:03,754 werkzeug INFO  * Debugger PIN: 125-288-098
+09:38:21,35 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:38:21,230 werkzeug INFO  * Restarting with stat
+09:38:22,209 root INFO Starting app
+09:38:22,236 werkzeug WARNING  * Debugger is active!
+09:38:22,246 werkzeug INFO  * Debugger PIN: 125-288-098
+09:39:30,112 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:39:30,215 werkzeug INFO  * Running on http://localhost:5001 (Press CTRL+C to quit)
+09:39:30,219 werkzeug INFO  * Restarting with stat
+09:39:30,258 werkzeug INFO  * Restarting with stat
+09:39:31,41 root INFO Starting app
+09:39:31,61 werkzeug WARNING  * Debugger is active!
+09:39:31,68 werkzeug INFO  * Debugger PIN: 125-288-098
+09:39:31,75 werkzeug WARNING  * Debugger is active!
+09:39:31,85 werkzeug INFO  * Debugger PIN: 125-288-098
+09:40:03,787 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:40:03,958 werkzeug INFO  * Restarting with stat
+09:40:05,15 root INFO Starting app
+09:40:05,35 werkzeug WARNING  * Debugger is active!
+09:40:05,62 werkzeug INFO  * Debugger PIN: 125-288-098
+09:41:21,769 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:41:21,859 werkzeug INFO  * Restarting with stat
+09:41:22,571 root INFO Starting app
+09:41:22,592 werkzeug WARNING  * Debugger is active!
+09:41:22,600 werkzeug INFO  * Debugger PIN: 125-288-098
+09:43:12,991 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:43:13,162 werkzeug INFO  * Restarting with stat
+09:43:13,727 werkzeug INFO  * Running on http://localhost:5001 (Press CTRL+C to quit)
+09:43:13,735 werkzeug INFO  * Restarting with stat
+09:43:14,282 root INFO Starting app
+09:43:14,304 werkzeug WARNING  * Debugger is active!
+09:43:14,313 werkzeug INFO  * Debugger PIN: 125-288-098
+09:43:14,736 werkzeug WARNING  * Debugger is active!
+09:43:14,742 werkzeug INFO  * Debugger PIN: 125-288-098
+09:50:41,80 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\e_details.py', reloading
+09:50:41,186 werkzeug INFO  * Restarting with stat
+09:50:41,771 root INFO Starting app
+09:50:41,815 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+09:50:41,818 werkzeug INFO  * Restarting with stat
+09:50:41,958 root INFO Starting app
+09:50:41,975 werkzeug WARNING  * Debugger is active!
+09:50:41,985 werkzeug INFO  * Debugger PIN: 125-288-098
+09:50:42,409 root INFO Starting app
+09:50:42,421 werkzeug WARNING  * Debugger is active!
+09:50:42,427 werkzeug INFO  * Debugger PIN: 125-288-098
+09:54:23,907 root INFO Started app
+09:54:23,982 root INFO Started app
+09:54:24,715 root INFO Starting app
+09:54:24,743 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+09:54:24,745 werkzeug INFO  * Restarting with stat
+09:54:25,308 root INFO Starting app
+09:54:25,321 werkzeug WARNING  * Debugger is active!
+09:54:25,327 werkzeug INFO  * Debugger PIN: 125-288-098
+09:57:30,741 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+09:57:30,771 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_adv.py', reloading
+09:57:30,952 werkzeug INFO  * Restarting with stat
+09:57:30,960 werkzeug INFO  * Restarting with stat
+09:57:32,292 root INFO Starting app
+09:57:32,307 werkzeug WARNING  * Debugger is active!
+09:57:32,314 werkzeug INFO  * Debugger PIN: 125-288-098
+10:06:48,758 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_adv.py', reloading
+10:06:48,884 werkzeug INFO  * Restarting with stat
+10:06:49,819 root INFO Starting app
+10:06:49,850 werkzeug WARNING  * Debugger is active!
+10:06:49,859 werkzeug INFO  * Debugger PIN: 125-288-098
+10:15:18,239 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\app_msg.py', reloading
+10:15:18,395 werkzeug INFO  * Restarting with stat
+10:15:19,573 root INFO Starting app
+10:15:19,595 werkzeug WARNING  * Debugger is active!
+10:15:19,603 werkzeug INFO  * Debugger PIN: 125-288-098
+10:32:21,397 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+10:32:21,550 werkzeug INFO  * Restarting with stat
+10:32:22,415 root INFO Starting app
+10:32:22,439 werkzeug WARNING  * Debugger is active!
+10:32:22,448 werkzeug INFO  * Debugger PIN: 125-288-098
+10:33:08,852 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+10:33:08,939 werkzeug INFO  * Restarting with stat
+10:33:09,665 root INFO Starting app
+10:33:09,686 werkzeug WARNING  * Debugger is active!
+10:33:09,695 werkzeug INFO  * Debugger PIN: 125-288-098
+10:33:29,675 RestAPP INFO get all employee
+10:33:29,676 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 10:33:29] "GET /getAllEmployee HTTP/1.1" 200 -
+10:33:32,436 RestAPP INFO get all employee
+10:33:32,437 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 10:33:32] "GET /getAllEmployee HTTP/1.1" 200 -
+10:33:33,836 RestAPP INFO get all employee
+10:33:33,837 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 10:33:33] "GET /getAllEmployee HTTP/1.1" 200 -
+10:34:09,0 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+10:34:09,166 werkzeug INFO  * Restarting with stat
+10:34:09,921 root INFO Starting app
+10:34:09,942 werkzeug WARNING  * Debugger is active!
+10:34:09,952 werkzeug INFO  * Debugger PIN: 125-288-098
+10:46:29,914 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_adv.py', reloading
+10:46:30,22 werkzeug INFO  * Restarting with stat
+10:46:30,879 root INFO Starting app
+10:46:30,902 werkzeug WARNING  * Debugger is active!
+10:46:30,913 werkzeug INFO  * Debugger PIN: 125-288-098
+10:47:57,394 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_service_adv.py', reloading
+10:47:57,495 werkzeug INFO  * Restarting with stat
+10:47:58,491 root INFO Starting app
+10:47:58,544 werkzeug WARNING  * Debugger is active!
+10:47:58,555 werkzeug INFO  * Debugger PIN: 125-288-098
+10:50:20,876 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_details.py', reloading
+10:50:21,67 werkzeug INFO  * Restarting with stat
+10:50:22,118 root INFO Starting app
+10:50:22,148 werkzeug WARNING  * Debugger is active!
+10:50:22,157 werkzeug INFO  * Debugger PIN: 125-288-098
+10:52:30,136 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+10:52:30,355 werkzeug INFO  * Restarting with stat
+10:52:31,495 root INFO Starting app
+10:52:31,515 werkzeug WARNING  * Debugger is active!
+10:52:31,525 werkzeug INFO  * Debugger PIN: 125-288-098
+10:58:20,66 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+10:58:20,218 werkzeug INFO  * Restarting with stat
+10:58:21,146 root INFO Starting app
+10:58:21,176 werkzeug WARNING  * Debugger is active!
+10:58:21,188 werkzeug INFO  * Debugger PIN: 125-288-098
+11:06:09,866 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+11:06:10,111 werkzeug INFO  * Restarting with stat
+11:06:11,117 root INFO Starting app
+11:06:11,144 werkzeug WARNING  * Debugger is active!
+11:06:11,219 werkzeug INFO  * Debugger PIN: 125-288-098
+11:20:02,396 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+11:20:02,529 werkzeug INFO  * Restarting with stat
+11:20:03,330 root INFO Starting app
+11:20:03,350 werkzeug WARNING  * Debugger is active!
+11:20:03,358 werkzeug INFO  * Debugger PIN: 125-288-098
+19:43:02,165 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+19:43:02,416 werkzeug INFO  * Restarting with stat
+19:43:03,549 root INFO Starting app
+19:43:03,578 werkzeug WARNING  * Debugger is active!
+19:43:03,590 werkzeug INFO  * Debugger PIN: 125-288-098
+19:46:57,849 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+19:46:58,37 werkzeug INFO  * Restarting with stat
+19:46:59,35 root INFO Starting app
+19:46:59,53 werkzeug WARNING  * Debugger is active!
+19:46:59,60 werkzeug INFO  * Debugger PIN: 125-288-098
+19:48:48,301 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+19:48:48,484 werkzeug INFO  * Restarting with stat
+19:48:49,528 root INFO Starting app
+19:48:49,553 werkzeug WARNING  * Debugger is active!
+19:48:49,566 werkzeug INFO  * Debugger PIN: 125-288-098
+19:55:35,913 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+19:55:36,58 werkzeug INFO  * Restarting with stat
+19:55:37,159 root INFO Starting app
+19:55:37,182 werkzeug WARNING  * Debugger is active!
+19:55:37,190 werkzeug INFO  * Debugger PIN: 125-288-098
+19:57:29,337 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+19:57:29,547 werkzeug INFO  * Restarting with stat
+19:57:30,761 root INFO Starting app
+19:57:30,787 werkzeug WARNING  * Debugger is active!
+19:57:30,800 werkzeug INFO  * Debugger PIN: 125-288-098
+20:00:22,970 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\UsingMysql\\employee_registration_adv.py', reloading
+20:00:23,145 werkzeug INFO  * Restarting with stat
+20:00:24,309 root INFO Starting app
+20:00:24,338 werkzeug WARNING  * Debugger is active!
+20:00:24,347 werkzeug INFO  * Debugger PIN: 125-288-098
+20:05:19,621 root INFO Started app
+20:05:19,747 root INFO Started app
+20:05:20,701 root INFO Starting app
+20:05:20,799 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:05:20,802 werkzeug INFO  * Restarting with stat
+20:05:21,553 root INFO Starting app
+20:05:21,569 werkzeug WARNING  * Debugger is active!
+20:05:21,576 werkzeug INFO  * Debugger PIN: 125-288-098
+20:05:42,419 RestAPP INFO get all employee
+20:05:42,421 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 20:05:42] "GET /getAllEmployee HTTP/1.1" 200 -
+20:06:14,579 RestAPP INFO update_employee method
+20:06:14,580 RestAPP DEBUG employee failed to update
+20:06:14,580 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 20:06:14] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+20:07:30,9 RestAPP INFO update_employee method
+20:07:30,10 RestAPP DEBUG employee failed to update
+20:07:30,10 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 20:07:30] "PUT /updateEmployee/ravi@gmail.com HTTP/1.1" 200 -
+20:07:52,29 RestAPP INFO update_employee method
+20:07:52,30 RestAPP DEBUG employee failed to update
+20:07:52,31 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 20:07:52] "PUT /updateEmployee/ravi@gmail.com HTTP/1.1" 200 -
+20:08:49,514 root INFO Started app
+20:08:49,617 root INFO Started app
+20:08:50,914 root INFO Starting app
+20:08:51,1 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:08:51,5 werkzeug INFO  * Restarting with stat
+20:08:52,768 root INFO Starting app
+20:08:52,810 werkzeug WARNING  * Debugger is active!
+20:08:52,820 werkzeug INFO  * Debugger PIN: 125-288-098
+20:10:22,239 root INFO Started app
+20:10:22,353 root INFO Started app
+20:10:23,185 root INFO Starting app
+20:10:23,250 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:10:23,255 werkzeug INFO  * Restarting with stat
+20:10:24,188 root INFO Starting app
+20:10:24,212 werkzeug WARNING  * Debugger is active!
+20:10:24,221 werkzeug INFO  * Debugger PIN: 125-288-098
+20:11:30,45 root INFO Started app
+20:11:30,140 root INFO Started app
+20:11:31,239 root INFO Starting app
+20:11:31,292 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+20:11:31,296 werkzeug INFO  * Restarting with stat
+20:11:32,535 root INFO Starting app
+20:11:32,549 werkzeug WARNING  * Debugger is active!
+20:11:32,556 werkzeug INFO  * Debugger PIN: 125-288-098
+21:42:55,297 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+21:42:55,664 werkzeug INFO  * Restarting with stat
+21:42:57,302 root INFO Starting app
+21:42:57,322 werkzeug WARNING  * Debugger is active!
+21:42:57,334 werkzeug INFO  * Debugger PIN: 125-288-098
+21:51:31,407 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_service_auth.py', reloading
+21:51:31,577 werkzeug INFO  * Restarting with stat
+21:51:32,727 root INFO Starting app
+21:51:32,758 werkzeug WARNING  * Debugger is active!
+21:51:32,767 werkzeug INFO  * Debugger PIN: 125-288-098
+21:53:13,876 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+21:53:14,17 werkzeug INFO  * Restarting with stat
+21:53:14,878 root INFO Starting app
+21:53:14,906 werkzeug WARNING  * Debugger is active!
+21:53:14,919 werkzeug INFO  * Debugger PIN: 125-288-098
+21:54:36,977 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+21:54:37,212 werkzeug INFO  * Restarting with stat
+21:54:38,8 root INFO Starting app
+21:54:38,41 werkzeug WARNING  * Debugger is active!
+21:54:38,51 werkzeug INFO  * Debugger PIN: 125-288-098
+21:57:24,752 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+21:57:24,959 werkzeug INFO  * Restarting with stat
+21:57:25,990 root INFO Starting app
+21:57:26,15 werkzeug WARNING  * Debugger is active!
+21:57:26,24 werkzeug INFO  * Debugger PIN: 125-288-098
+22:03:02,474 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+22:03:02,827 werkzeug INFO  * Restarting with stat
+22:03:03,355 root INFO Starting app
+22:03:03,461 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:03:03,465 werkzeug INFO  * Restarting with stat
+22:03:03,901 root INFO Starting app
+22:03:03,924 werkzeug WARNING  * Debugger is active!
+22:03:03,935 werkzeug INFO  * Debugger PIN: 125-288-098
+22:03:04,464 root INFO Starting app
+22:03:04,477 werkzeug WARNING  * Debugger is active!
+22:03:04,482 werkzeug INFO  * Debugger PIN: 125-288-098
+22:03:29,19 RestAPP INFO get all employee
+22:03:29,19 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:03:29] "GET /getAllEmployee HTTP/1.1" 200 -
+22:03:37,894 RestAPP INFO get all employee
+22:03:37,894 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:03:37] "GET /getAllEmployee HTTP/1.1" 200 -
+22:04:31,707 root INFO Started app
+22:04:31,775 root INFO Started app
+22:04:32,472 root INFO Starting app
+22:04:32,543 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:04:32,548 werkzeug INFO  * Restarting with stat
+22:04:33,304 root INFO Starting app
+22:04:33,320 werkzeug WARNING  * Debugger is active!
+22:04:33,326 werkzeug INFO  * Debugger PIN: 125-288-098
+22:04:55,597 RestAPP INFO get all employee
+22:04:55,597 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:04:55] "GET /getAllEmployee HTTP/1.1" 200 -
+22:04:57,898 RestAPP INFO get all employee
+22:04:57,899 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:04:57] "GET /getAllEmployee HTTP/1.1" 200 -
+22:05:52,974 RestAPP INFO get all employee
+22:05:52,975 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:05:52] "GET /getAllEmployee?username=ashwini&password=amol HTTP/1.1" 200 -
+22:05:55,816 RestAPP INFO get all employee
+22:05:55,816 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:05:55] "GET /getAllEmployee?username=ashwini&password=amol HTTP/1.1" 200 -
+22:07:28,977 RestAPP INFO get all employee
+22:07:28,978 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:07:28] "GET /getAllEmployee HTTP/1.1" 200 -
+22:07:30,605 RestAPP INFO get all employee
+22:07:30,608 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:07:30] "GET /getAllEmployee HTTP/1.1" 200 -
+22:08:27,772 root INFO Started app
+22:08:27,888 root INFO Started app
+22:08:28,149 root INFO Started app
+22:08:28,277 root INFO Started app
+22:08:32,813 root INFO Starting app
+22:08:32,844 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:08:32,851 werkzeug INFO  * Restarting with stat
+22:08:34,755 root INFO Starting app
+22:08:34,769 werkzeug WARNING  * Debugger is active!
+22:08:34,781 werkzeug INFO  * Debugger PIN: 125-288-098
+22:09:38,46 root INFO Started app
+22:09:38,167 root INFO Started app
+22:09:56,435 root INFO Starting app
+22:09:56,464 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:09:56,466 werkzeug INFO  * Restarting with stat
+22:09:56,960 root INFO Starting app
+22:09:56,975 werkzeug WARNING  * Debugger is active!
+22:09:56,982 werkzeug INFO  * Debugger PIN: 125-288-098
+22:10:05,52 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:10:05] "GET /getAllEmployee HTTP/1.1" 200 -
+22:10:40,259 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:10:40] "GET /getAllEmployee?username=ashwini&password=amol HTTP/1.1" 200 -
+22:10:42,802 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:10:42] "GET /getAllEmployee?username=ashwini&password=amol HTTP/1.1" 200 -
+22:11:06,788 RestAPP INFO get all employee
+22:11:06,789 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:11:06] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:12:31,876 root INFO Started app
+22:12:31,935 root INFO Started app
+22:12:36,611 root INFO Starting app
+22:12:36,644 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:12:36,650 werkzeug INFO  * Restarting with stat
+22:12:38,277 root INFO Starting app
+22:12:38,289 werkzeug WARNING  * Debugger is active!
+22:12:38,304 werkzeug INFO  * Debugger PIN: 125-288-098
+22:12:58,176 root INFO Started app
+22:12:58,292 root INFO Started app
+22:13:00,503 root INFO Starting app
+22:13:00,533 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:13:00,538 werkzeug INFO  * Restarting with stat
+22:13:02,186 root INFO Starting app
+22:13:02,208 werkzeug WARNING  * Debugger is active!
+22:13:02,226 werkzeug INFO  * Debugger PIN: 125-288-098
+22:13:30,882 root INFO Started app
+22:13:30,985 root INFO Started app
+22:13:33,290 root INFO Starting app
+22:13:33,329 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:13:33,335 werkzeug INFO  * Restarting with stat
+22:13:34,961 root INFO Starting app
+22:13:34,973 werkzeug WARNING  * Debugger is active!
+22:13:34,994 werkzeug INFO  * Debugger PIN: 125-288-098
+22:17:23,157 root INFO Started app
+22:17:23,272 root INFO Started app
+22:17:43,38 root INFO Starting app
+22:17:43,67 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:17:43,71 werkzeug INFO  * Restarting with stat
+22:17:43,628 root INFO Starting app
+22:17:43,663 werkzeug WARNING  * Debugger is active!
+22:17:43,680 werkzeug INFO  * Debugger PIN: 125-288-098
+22:17:50,965 RestAPP INFO get all employee
+22:17:50,966 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:17:50] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:18:06,578 RestAPP INFO get all employee
+22:18:06,579 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:18:06] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:21:10,864 root INFO Started app
+22:21:10,937 root INFO Started app
+22:21:12,116 root INFO Starting app
+22:21:12,161 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:21:12,164 werkzeug INFO  * Restarting with stat
+22:21:12,713 root INFO Starting app
+22:21:12,727 werkzeug WARNING  * Debugger is active!
+22:21:12,734 werkzeug INFO  * Debugger PIN: 125-288-098
+22:21:24,601 RestAPP INFO register_employee method
+22:21:24,601 RestAPP DEBUG employee has been registered successfully.
+22:21:24,603 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:21:24] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:21:42,142 RestAPP INFO register_employee method
+22:21:42,142 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:21:42] "POST /registerEmployee HTTP/1.1" 200 -
+22:21:53,71 RestAPP INFO register_employee method
+22:21:53,72 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:21:53] "POST /registerEmployee HTTP/1.1" 200 -
+22:21:57,631 RestAPP INFO register_employee method
+22:21:57,632 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:21:57] "POST /registerEmployee HTTP/1.1" 200 -
+22:22:13,324 RestAPP INFO register_employee method
+22:22:13,325 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:22:13] "[31m[1mPOST /registerEmployee?username=ash&password=amol HTTP/1.1[0m" 400 -
+22:22:36,380 RestAPP INFO register_employee method
+22:22:36,381 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:22:36] "[31m[1mPOST /registerEmployee?username=ash&password=amol HTTP/1.1[0m" 400 -
+22:23:57,75 root INFO Started app
+22:23:57,149 root INFO Started app
+22:23:58,29 root INFO Starting app
+22:23:58,101 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:23:58,105 werkzeug INFO  * Restarting with stat
+22:23:58,748 root INFO Starting app
+22:23:58,764 werkzeug WARNING  * Debugger is active!
+22:23:58,770 werkzeug INFO  * Debugger PIN: 125-288-098
+22:24:03,165 RestAPP INFO register_employee method
+22:24:03,165 RestAPP DEBUG Input data is missing
+22:24:03,166 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:24:03] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:24:20,400 RestAPP INFO register_employee method
+22:24:20,401 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:24:20] "[31m[1mPOST /registerEmployee?username=ash&password=amol HTTP/1.1[0m" 400 -
+22:24:35,525 RestAPP INFO register_employee method
+22:24:35,525 RestAPP DEBUG Input data is missing
+22:24:35,526 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:24:35] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:25:27,250 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+22:25:27,662 werkzeug INFO  * Restarting with stat
+22:25:28,256 root INFO Starting app
+22:25:28,278 werkzeug WARNING  * Debugger is active!
+22:25:28,286 werkzeug INFO  * Debugger PIN: 125-288-098
+22:25:35,644 RestAPP INFO update_employee method
+22:25:35,646 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:25:35] "PUT /updateEmployee/ravi@gmail.com HTTP/1.1" 200 -
+22:26:13,489 RestAPP INFO update_employee method
+22:26:13,490 RestAPP DEBUG employee failed to update
+22:26:13,491 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:26:13] "PUT /updateEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:26:48,999 RestAPP INFO update_employee method
+22:26:48,999 RestAPP DEBUG employee failed to update
+22:26:49,0 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:26:49] "PUT /updateEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:28:04,187 RestAPP INFO update_employee method
+22:28:04,191 RestAPP DEBUG employee failed to update
+22:28:04,191 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:28:04] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+22:29:24,619 RestAPP INFO update_employee method
+22:29:24,620 RestAPP DEBUG employee failed to update
+22:29:24,621 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:29:24] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+22:30:48,707 root INFO Started app
+22:30:48,784 root INFO Started app
+22:30:49,653 root INFO Starting app
+22:30:49,701 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:30:49,705 werkzeug INFO  * Restarting with stat
+22:30:50,307 root INFO Starting app
+22:30:50,325 werkzeug WARNING  * Debugger is active!
+22:30:50,332 werkzeug INFO  * Debugger PIN: 125-288-098
+22:31:16,251 RestAPP INFO get all employee
+22:31:16,252 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:31:16] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:32:20,733 RestAPP INFO register_employee method
+22:32:20,734 RestAPP DEBUG employee has been registered successfully.
+22:32:20,734 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:32:20] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:32:41,353 RestAPP INFO register_employee method
+22:32:41,354 RestAPP DEBUG employee has been registered successfully.
+22:32:41,354 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:32:41] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:32:47,654 RestAPP INFO get all employee
+22:32:47,655 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:32:47] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:33:46,403 RestAPP INFO update_employee method
+22:33:46,403 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:33:46] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+22:34:13,375 RestAPP INFO update_employee method
+22:34:13,376 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:34:13] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+22:34:46,301 RestAPP INFO update_employee method
+22:34:46,301 RestAPP DEBUG employee failed to update
+22:34:46,303 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:34:46] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+22:35:02,595 RestAPP INFO get all employee
+22:35:02,596 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:35:02] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:35:11,4 RestAPP INFO get all employee
+22:35:11,5 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:35:11] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:37:14,62 root INFO Started app
+22:37:14,122 root INFO Started app
+22:37:18,820 root INFO Starting app
+22:37:18,850 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:37:18,855 werkzeug INFO  * Restarting with stat
+22:37:20,594 root INFO Starting app
+22:37:20,604 werkzeug WARNING  * Debugger is active!
+22:37:20,616 werkzeug INFO  * Debugger PIN: 125-288-098
+22:37:29,683 RestAPP INFO update_employee method
+22:38:45,102 root INFO Started app
+22:38:45,266 root INFO Started app
+22:38:47,528 root INFO Starting app
+22:38:47,560 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:38:47,565 werkzeug INFO  * Restarting with stat
+22:38:49,578 root INFO Starting app
+22:38:49,605 werkzeug WARNING  * Debugger is active!
+22:38:49,625 werkzeug INFO  * Debugger PIN: 125-288-098
+22:39:09,194 RestAPP INFO update_employee method
+22:40:02,85 root INFO Started app
+22:40:02,234 root INFO Started app
+22:40:04,517 root INFO Starting app
+22:40:04,550 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:40:04,554 werkzeug INFO  * Restarting with stat
+22:40:06,923 root INFO Starting app
+22:40:06,957 werkzeug WARNING  * Debugger is active!
+22:40:06,987 werkzeug INFO  * Debugger PIN: 125-288-098
+22:40:09,712 RestAPP INFO update_employee method
+22:40:24,788 root INFO Started app
+22:40:24,938 root INFO Started app
+22:40:25,825 root INFO Starting app
+22:40:25,870 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:40:25,874 werkzeug INFO  * Restarting with stat
+22:40:26,422 root INFO Starting app
+22:40:26,434 werkzeug WARNING  * Debugger is active!
+22:40:26,440 werkzeug INFO  * Debugger PIN: 125-288-098
+22:40:36,355 root INFO Started app
+22:40:36,750 root INFO Started app
+22:40:40,956 root INFO Starting app
+22:40:40,987 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:40:40,992 werkzeug INFO  * Restarting with stat
+22:40:42,843 root INFO Starting app
+22:40:42,862 werkzeug WARNING  * Debugger is active!
+22:40:42,879 werkzeug INFO  * Debugger PIN: 125-288-098
+22:40:49,327 RestAPP INFO update_employee method
+22:42:00,402 root INFO Started app
+22:42:00,544 root INFO Started app
+22:42:01,463 root INFO Starting app
+22:42:01,515 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:42:01,519 werkzeug INFO  * Restarting with stat
+22:42:02,110 root INFO Starting app
+22:42:02,123 werkzeug WARNING  * Debugger is active!
+22:42:02,128 werkzeug INFO  * Debugger PIN: 125-288-098
+22:42:09,666 RestAPP INFO update_employee method
+22:42:09,667 RestAPP DEBUG employee has been updated successfully.
+22:42:09,668 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:42:09] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+22:42:19,237 RestAPP INFO get all employee
+22:42:19,237 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:42:19] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:42:37,31 RestAPP INFO update_employee method
+22:42:37,31 RestAPP DEBUG Input data is missing
+22:42:37,32 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:42:37] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+22:42:49,248 RestAPP INFO update_employee method
+22:42:49,249 RestAPP DEBUG Input data is missing
+22:42:49,249 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:42:49] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+22:43:01,556 RestAPP INFO update_employee method
+22:43:01,557 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:43:01] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+22:43:35,515 RestAPP INFO delete_employee method
+22:43:35,535 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:43:35] "[35m[1mDELETE /deleteEmployee/1 HTTP/1.1[0m" 500 -
+22:44:11,274 RestAPP INFO delete_employee method
+22:44:11,290 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:44:11] "[35m[1mDELETE /deleteEmployee/rani@gmail.com HTTP/1.1[0m" 500 -
+22:47:21,999 root INFO Started app
+22:47:22,91 root INFO Started app
+22:47:23,511 root INFO Starting app
+22:47:23,570 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:47:23,573 werkzeug INFO  * Restarting with stat
+22:47:24,931 root INFO Starting app
+22:47:24,951 werkzeug WARNING  * Debugger is active!
+22:47:24,960 werkzeug INFO  * Debugger PIN: 125-288-098
+22:47:32,9 RestAPP INFO delete_employee method
+22:47:32,29 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:47:32] "[35m[1mDELETE /deleteEmployee/rani@gmail.com HTTP/1.1[0m" 500 -
+22:48:05,786 RestAPP INFO delete_employee method
+22:48:05,786 RestAPP DEBUG employee failed to delete
+22:48:05,787 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:48:05] "DELETE /deleteEmployee/rani@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:48:22,1 RestAPP INFO get all employee
+22:48:22,2 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:48:22] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+22:48:38,838 RestAPP INFO delete_employee method
+22:48:38,838 RestAPP DEBUG employee has been deleted successfully.
+22:48:38,840 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:48:38] "DELETE /deleteEmployee/pratik@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:48:51,919 RestAPP INFO delete_employee method
+22:48:51,921 RestAPP DEBUG employee failed to delete
+22:48:51,922 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:48:51] "DELETE /deleteEmployee/pratik1@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:49:08,487 RestAPP INFO delete_employee method
+22:49:08,506 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:49:08] "[35m[1mDELETE /deleteEmployee/pratik@gmail.com?username=ash1&password=amol HTTP/1.1[0m" 500 -
+22:49:28,57 RestAPP INFO delete_employee method
+22:49:28,70 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:49:28] "[35m[1mDELETE /deleteEmployee/ravi@gmail.com?username=ash1&password=amol HTTP/1.1[0m" 500 -
+22:52:09,34 root INFO Started app
+22:52:09,115 root INFO Started app
+22:52:26,903 root INFO Starting app
+22:52:26,932 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:52:26,935 werkzeug INFO  * Restarting with stat
+22:52:27,823 root INFO Starting app
+22:52:27,836 werkzeug WARNING  * Debugger is active!
+22:52:27,841 werkzeug INFO  * Debugger PIN: 125-288-098
+22:52:36,97 RestAPP INFO delete_employee method
+22:52:36,98 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:52:36] "DELETE /deleteEmployee/ravi@gmail.com?username=ash1&password=amol HTTP/1.1" 200 -
+22:52:43,613 RestAPP INFO delete_employee method
+22:52:43,614 RestAPP DEBUG employee has been deleted successfully.
+22:52:43,614 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:52:43] "DELETE /deleteEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:52:50,276 RestAPP INFO delete_employee method
+22:52:50,279 RestAPP DEBUG employee failed to delete
+22:52:50,280 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:52:50] "DELETE /deleteEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+22:53:13,627 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:53:13] "[33mDELETE /deleteEmployee?username=ash&password=amol HTTP/1.1[0m" 404 -
+22:59:41,259 root INFO Started app
+22:59:41,332 root INFO Started app
+22:59:42,385 root INFO Starting app
+22:59:42,444 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+22:59:42,448 werkzeug INFO  * Restarting with stat
+22:59:43,176 root INFO Starting app
+22:59:43,195 werkzeug WARNING  * Debugger is active!
+22:59:43,205 werkzeug INFO  * Debugger PIN: 125-288-098
+22:59:59,192 RestAPP INFO get all employee
+22:59:59,193 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 22:59:59] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:00:28,300 RestAPP INFO delete_employee method
+23:00:28,300 RestAPP DEBUG INVALID_USER
+23:00:28,302 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:00:28] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:01:24,622 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+23:01:24,682 werkzeug INFO  * Restarting with stat
+23:01:25,487 root INFO Starting app
+23:01:25,501 werkzeug WARNING  * Debugger is active!
+23:01:25,506 werkzeug INFO  * Debugger PIN: 125-288-098
+23:01:27,557 RestAPP INFO delete_employee method
+23:01:27,557 RestAPP DEBUG INVALID_USER
+23:01:27,558 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:01:27] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:01:38,804 root INFO Started app
+23:01:38,880 root INFO Started app
+23:01:39,539 root INFO Starting app
+23:01:39,576 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+23:01:39,579 werkzeug INFO  * Restarting with stat
+23:01:40,322 root INFO Starting app
+23:01:40,339 werkzeug WARNING  * Debugger is active!
+23:01:40,347 werkzeug INFO  * Debugger PIN: 125-288-098
+23:01:48,217 RestAPP INFO delete_employee method
+23:01:48,218 RestAPP DEBUG INVALID_USER
+23:01:48,218 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:01:48] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:01:49,700 RestAPP INFO delete_employee method
+23:01:49,700 RestAPP DEBUG INVALID_USER
+23:01:49,702 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:01:49] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:03:21,164 root INFO Started app
+23:03:21,235 root INFO Started app
+23:03:22,213 root INFO Starting app
+23:03:22,259 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+23:03:22,263 werkzeug INFO  * Restarting with stat
+23:03:22,889 root INFO Starting app
+23:03:22,902 werkzeug WARNING  * Debugger is active!
+23:03:22,908 werkzeug INFO  * Debugger PIN: 125-288-098
+23:03:29,476 RestAPP INFO delete_employee method
+23:03:29,476 RestAPP DEBUG INVALID_USER
+23:03:29,477 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:03:29] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:03:41,829 RestAPP INFO delete_employee method
+23:03:41,829 RestAPP DEBUG employee has been deleted successfully.
+23:03:41,829 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:03:41] "DELETE /deleteEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:03:48,891 RestAPP INFO get all employee
+23:03:48,894 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:03:48] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:05:45,861 root INFO Started app
+23:05:45,938 root INFO Started app
+23:05:46,856 root INFO Starting app
+23:05:46,924 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+23:05:46,943 werkzeug INFO  * Restarting with stat
+23:05:47,563 root INFO Starting app
+23:05:47,576 werkzeug WARNING  * Debugger is active!
+23:05:47,583 werkzeug INFO  * Debugger PIN: 125-288-098
+23:06:06,810 RestAPP INFO delete_employee method
+23:06:06,811 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:06:06] "DELETE /deleteEmployee/ravi@gmail.com HTTP/1.1" 200 -
+23:06:19,738 RestAPP INFO delete_employee method
+23:06:19,739 RestAPP DEBUG INVALID_USER
+23:06:19,739 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:06:19] "DELETE /deleteEmployee/ravi@gmail.com?username=ash1&password=amol HTTP/1.1" 200 -
+23:06:25,196 RestAPP INFO delete_employee method
+23:06:25,198 RestAPP DEBUG employee has been deleted successfully.
+23:06:25,199 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:06:25] "DELETE /deleteEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:06:31,793 RestAPP INFO delete_employee method
+23:06:31,794 RestAPP DEBUG employee failed to delete
+23:06:31,796 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:06:31] "DELETE /deleteEmployee/ravi@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:07:18,978 RestAPP INFO get_employee method
+23:07:18,978 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:07:18] "GET /getEmployee/pratik@gmail.com HTTP/1.1" 200 -
+23:07:50,495 RestAPP INFO get_employee method
+23:07:50,495 RestAPP DEBUG employee found
+23:07:50,496 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:07:50] "GET /getEmployee/pratik@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:07:58,814 RestAPP INFO get_employee method
+23:07:58,814 RestAPP DEBUG INVALID_USER
+23:07:58,815 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:07:58] "GET /getEmployee/pratik@gmail.com?username=ash1&password=amol HTTP/1.1" 200 -
+23:08:07,769 RestAPP INFO get_employee method
+23:08:07,770 RestAPP DEBUG employee not found
+23:08:07,775 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:08:07] "GET /getEmployee/pratik1@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:08:17,952 RestAPP INFO get_employee method
+23:08:17,953 RestAPP DEBUG employee found
+23:08:17,953 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:08:17] "GET /getEmployee/pratik@gmail.com?username=ash&password=amol HTTP/1.1" 200 -
+23:16:55,529 root INFO Started app
+23:16:55,600 root INFO Started app
+23:16:56,283 root INFO Starting app
+23:16:56,325 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+23:16:56,328 werkzeug INFO  * Restarting with stat
+23:16:56,969 root INFO Starting app
+23:16:56,987 werkzeug WARNING  * Debugger is active!
+23:16:56,995 werkzeug INFO  * Debugger PIN: 125-288-098
+23:18:47,938 root INFO Started app
+23:18:48,12 root INFO Started app
+23:18:48,877 root INFO Starting app
+23:18:48,918 werkzeug INFO  * Running on http://localhost:5000 (Press CTRL+C to quit)
+23:18:48,922 werkzeug INFO  * Restarting with stat
+23:18:49,466 root INFO Starting app
+23:18:49,478 werkzeug WARNING  * Debugger is active!
+23:18:49,484 werkzeug INFO  * Debugger PIN: 125-288-098
+23:18:56,475 RestAPP INFO get all employee
+23:18:56,476 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:18:56] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:19:03,684 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:19:03] "GET /getAllEmployee HTTP/1.1" 200 -
+23:19:16,591 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:19:16] "GET /getAllEmployee?username=ash1&password=amol HTTP/1.1" 200 -
+23:19:24,244 RestAPP INFO get all employee
+23:19:24,244 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:19:24] "GET /getAllEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:19:37,115 RestAPP INFO register_employee method
+23:19:37,115 RestAPP DEBUG Input data is missing
+23:19:37,116 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:19:37] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:19:52,867 RestAPP INFO register_employee method
+23:19:52,868 RestAPP DEBUG INVALID_USER
+23:19:52,868 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:19:52] "POST /registerEmployee?username=ash&password=amol1 HTTP/1.1" 200 -
+23:20:08,46 RestAPP INFO register_employee method
+23:20:08,47 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:20:08] "POST /registerEmployee HTTP/1.1" 200 -
+23:20:17,404 RestAPP INFO register_employee method
+23:20:17,405 RestAPP DEBUG employee has been registered successfully.
+23:20:17,410 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:20:17] "POST /registerEmployee?username=ash&password=amol HTTP/1.1" 200 -
+23:20:26,975 RestAPP INFO update_employee method
+23:20:26,976 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:20:26] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+23:20:42,284 RestAPP INFO update_employee method
+23:20:42,285 RestAPP DEBUG Input data is missing
+23:20:42,286 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:20:42] "PUT /updateEmployee/1 HTTP/1.1" 200 -
+23:21:31,121 RestAPP INFO update_employee method
+23:21:31,121 RestAPP DEBUG employee has been updated successfully.
+23:21:31,122 werkzeug INFO 127.0.0.1 - - [06/Jul/2022 23:21:31] "PUT /updateEmployee/1?username=ash&password=amol HTTP/1.1" 200 -
+23:25:34,480 werkzeug INFO  * Detected change in 'C:\\Users\\DELL SSD\\PycharmProjects\\pythonProject\\flask framework\\flask_sir_demo\\employee_details_adv\\employee_details_auth.py', reloading
+23:25:34,538 werkzeug INFO  * Restarting with stat
+23:25:35,25 root INFO Starting app
+23:25:35,39 werkzeug WARNING  * Debugger is active!
+23:25:35,48 werkzeug INFO  * Debugger PIN: 125-288-098
+23:25:37,518 root INFO Started app
+23:25:37,594 root INFO Started app
