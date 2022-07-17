@@ -12,8 +12,9 @@ DELETED_FAILED = "Failed to delete"
 MISSING_DATA = "Input data is missing"
 EMAIL_NOT_VALID = "Email is not valid"
 MISSING_DATA_EMAIL = "Missing email"
-INVALID_USER = "INVALID_USER"
-USER_MISSING = "USER NOT FOUND"
+USER_MISSING = "USER NOT MENTION"
+INVALID_USER = "User not valid"
+NOT_ACTIVE = "User is not active, contact admin"
 
 def create_response(status,messages):
 
