@@ -1,115 +1,154 @@
-"""
-This service is used for flak app
-"""
+import mysql.connector
 
-import json
-import uuid
-from json import JSONEncoder
-from random import Random
+class MySQLConnector:
+    conn = None
+    cursor = None
 
+    def __init__(self):
+        self.conn = mysql.connector.connect(
+            host="localhost",
+            # port="3",
+            user="root",
+            password="root",
+            database="Employee_management"
+        )
+        self.cursor = self.conn.cursor()
 
-class Employee():
-    def __init__(self, id, name, email):
-        self.id = id
-        self.name = name
-        self.email = email
+emp_list = []
 
+class UserDbOperations:
 
-class EmployeeEncoder(JSONEncoder):
-    def default(self, obj):
-        return obj.__dict__
+    @staticmethod
+    def insert_employee_data(id, name, email):
+        mycon = MySQLConnector()
+        query = "insert into Employee_registration (Id, Name, Email) values ('" + id + "','" + name + "', '" + email + "')"
+        mycon.cursor.execute(query)
+        mycon.cursor.execute("select * FROM Employee_registration")
+        for x in mycon.cursor:
+           emp_list.append(x)
 
-list_my = []
-emp_dic = {}
+        return emp_list
 
-employee_dic = {}
-list_my = []
+    @staticmethod
+    def get_all_employee_data():
+        mycon = MySQLConnector()
+        emp_list = []
+        query = "SELECT * FROM Employee_registration"
+        mycon.cursor.execute(query)
+        for x in mycon.cursor:
+            emp_list.append(x)
+        return emp_list
 
-emp1 = Employee(1, "ravi", "ravi@gmail.com")
-emp2 = Employee(2, "pratik", "pratik@gmail.com")
-emp3 = Employee(3, "mahesh", "mahesh@gmail.com")
-
-employee_dic[emp1.email] = emp1.__dict__
-employee_dic[emp2.email] = emp2.__dict__
-employee_dic[emp3.email] = emp3.__dict__
-
-
-print(EmployeeEncoder().encode(employee_dic))
-print(json.dumps(employee_dic, cls=EmployeeEncoder))
-
-list_my.append(emp1.__dict__)
-list_my.append(emp2.__dict__)
-list_my.append(emp3.__dict__)
-
-print(EmployeeEncoder().encode(list_my))
-print(json.dumps(list_my, cls=EmployeeEncoder))
-
-#https://changsin.medium.com/how-to-serialize-a-class-object-to-json-in-python-849697a0cd3
-# key- email value-empObject
-#https://pynative.com/make-python-class-json-serializable/
-
-def get_all_employee_data():
-    return list_my
-
-def get_all_employee_data_list():
-    return json.dumps(list_my, cls=EmployeeEncoder)
-
-def register_employee_data(json_data):
-    flag = False
-    if json_data:
-        emp_id = uuid.uuid4()
-        emp_temp = Employee(emp_id, json_data.get("name"), json_data.get("email"))
-        list_my.append(emp_temp.__dict__)
-        flag = True
-    return flag
-
-def convert_json_to_emp(json_data):
-    emp_id = uuid.uuid4()
-    return Employee(emp_id, json_data.get("name"), json_data.get("email"))
-
-def update_employee_data(json_data, id):
-     flag = False
-     if json_data and id:
-         print(id)
-         for emp in list_my:
-             if emp.get("id") == id:
-                 index = list_my.index(emp)
-                 email1 = json_data.get("email")
-                 name1 = json_data.get("name")
-                 temp = Employee(id, name1, email1)
-                 list_my[index] = temp.__dict__
-                 print(list_my)
-                 flag = True
-     return flag
-
-def delete_employee_data(email):
-    flag = False
-    for emp in list_my:
-        if emp.get("email") == email:
-            list_my.remove(emp)
-            #index = list_my.index(emp)
-            #del list_my[index]
+    @staticmethod
+    def register_employee_data(json_data):
+        flag = False
+        if json_data:
+            mycon = MySQLConnector()
+            id = json_data.get("id")
+            name = json_data.get("name")
+            email = json_data.get("email")
+            query = "INSERT INTO Employee_registration (Id, Name, Email) VALUES (%s, %s, %s)"
+            val = (id, name, email)
+            record = mycon.cursor.execute(query, val)
+            mycon.conn.commit()
             flag = True
-    return flag
+        return flag
+
+    @staticmethod
+    def update_employee_data(json_data, id):
+       flag = False
+       if json_data and id:
+          if UserDbOperations.check_by_id(id) == False:
+               flag = False
+          else:
+               mycon = MySQLConnector()
+               name = json_data.get("name")
+               email = json_data.get("email")
+               query = 'update Employee_registration set name=%s, email=%s where id=%s'
+               d = (name,email,id)
+               mycon.cursor.execute(query, d)
+               mycon.conn.commit()
+               flag = True
+       return  flag
+
+    def check_by_id(id):
+        mycon = MySQLConnector()
+        query = 'select * from Employee_registration where id=%s'
+        data = (id,)
+        mycon.cursor.execute(query, data)
+        r = mycon.cursor.fetchone()
+        if r:
+          return True
+        else:
+          return False
+
+    @staticmethod
+    def delete_employee_data(email):
+           flag = False
+           if UserDbOperations.check_by_email(email) == False:
+               flag = False
+           else:
+               mycon = MySQLConnector()
+               query = 'delete from Employee_registration where email=%s'
+               data = (email,)
+               mycursor = mycon.cursor
+               mycursor.execute(query, data)
+               mycon.conn.commit()
+               print(mycursor.rowcount)
+               flag = True
+
+           return flag
+
+    @staticmethod
+    def get_employee_data(email):
+        if UserDbOperations.check_by_email(email) == False:
+             print("email not found")
+        else:
+            mycon = MySQLConnector()
+            query = 'select * from Employee_registration where email=%s'
+            data = (email,)
+            mycursor = mycon.cursor
+            mycursor.execute(query, data)
+            for x in mycursor:
+                return x
 
 
-def get_employee_data(email):
-    for emp in list_my:
-        if emp.get("email") == email:
-            print("email: " + str(emp.get("name")))
-            index = list_my.index(emp)
-            emp_delete = list_my.__getitem__(index)
-            return emp_delete
-    return None
-
-def is_valid_user(args):
-        username = args.get("username", type=str)
-        #args.get("username", default="", type=str)
-        password = args.get("password", type=str)
-        if username == "ash" and password == "amol":
+    def check_by_email(email):
+        mycon = MySQLConnector()
+        query = 'select * from Employee_registration where email=%s'
+        data = (email,)
+        mycon.cursor.execute(query, data)
+        r = mycon.cursor.fetchone()
+        if r:
             return True
         else:
             return False
+
+class User_authentication:
+
+    @staticmethod
+    def is_valid_user(args):
+        if args:
+            username = args.get("username")
+            password = args.get("password")
+            mycon = MySQLConnector()
+            query = "SELECT * FROM api_users where username = %s and password = %s"
+            #query = "SELECT * FROM api_users where username = %s and password = %s and Is_active ='True'"
+            data = (username, password)
+            mycon.cursor.execute(query, data)
+            user_result = mycon.cursor.fetchone()
+            print(user_result)
+            #mycon.conn.commit()
+            if user_result:
+                is_active = user_result[4]
+                if is_active == "True":
+                   return True, True
+                else:
+                   return True, False
+            else:
+                return False, False
+        else:
+            return False, False
 
 
 
