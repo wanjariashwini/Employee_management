@@ -1,11 +1,15 @@
-from flask import Flask,redirect, url_for, jsonify, request
+from flask import Flask, jsonify, request
+import json
 from employee_service_authentication import *
-from app_msg import *
 import logging
+from app_msg import *
 
 app = Flask(__name__)
 
-log_file_name = "emp_app.log"
+EMP = UserDbOperations()
+USER =User_authentication()
+
+log_file_name = "../emp_app.log"
 logging.basicConfig(filename=log_file_name,
                     filemode='a',
                     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
@@ -19,15 +23,29 @@ def server_check():
     logger.info("Server status check")
     return create_response(SUCCESS, SERVER_HEALTH_STATUS)
 
+# https://stackoverflow.com/questions/13081532/return-json-response-from-flask-view
+
 @app.route('/getAllEmployee', methods=['GET'])
 def get_all_employee():
-    if request.args:
-        args = request.args
-        if args and is_valid_user(args):
-           logger.info("get all employee")
-           return jsonify(get_all_employee_data())  # josn.dump(get_all_employee_data())
+    if request:
+        auth = request.authorization
+        print(auth)
+        logger.info(auth)
+        user_validation, is_active = USER.is_valid_user(auth)
+        print(user_validation, is_active)
+        if user_validation:
+            if is_active:
+               emp_data = EMP.get_all_employee_data()
+               if emp_data:
+                    logger.info("get all employee")
+                    return jsonify(emp_data) # josn.dump(get_all_employee_data())
+               else:
+                    return create_response(FAILED, MISSING_DATA)
+            else:
+                return create_response(FAILED, NOT_ACTIVE)
         else:
-           return create_response(FAILED, INVALID_USER)
+            return create_response(FAILED, INVALID_USER)
+
     else:
         return create_response(FAILED, USER_MISSING)
 
@@ -35,22 +53,26 @@ def get_all_employee():
 def register_employee():
     logger.info("register_employee method")
     if request and request.is_json:
-        if request.args:
-           args = request.args
-           if args and is_valid_user(args):
-               print("processing input" + str(request.json))
-               status = register_employee_data(request.json)
-               if status:
-                 logger.debug("employee has been registered successfully.")
-                 return create_response(SUCCESS, REGISTERED)
-               else:
-                 logger.debug("employee failed to register")
-                 return create_response(FAILED, REGISTERED_FAILED)
-           else:
-              logger.debug(INVALID_USER)
-              return create_response(FAILED, INVALID_USER)
+        if request.authorization:
+            auth = request.authorization
+            user_validation, is_active = USER.is_valid_user(auth)
+            if auth and user_validation:
+                if is_active:
+                    print("processing input" + str(request.json))
+                    status = EMP.register_employee_data(request.json)
+                    if status:
+                        logger.debug("employee has been registered successfully.")
+                        return create_response(SUCCESS, REGISTERED)
+                    else:
+                        logger.debug("employee failed to register")
+                        return create_response(FAILED, REGISTERED_FAILED)
+                else:
+                    return create_response(FAILED, NOT_ACTIVE)
+            else:
+                logger.debug(INVALID_USER)
+                return create_response(FAILED, INVALID_USER)
         else:
-           return create_response(FAILED, USER_MISSING)
+            return create_response(FAILED, USER_MISSING)
 
     logger.debug(MISSING_DATA)
     return create_response(FAILED, MISSING_DATA)
@@ -60,60 +82,72 @@ def register_employee():
 def update_employee(id):
     logger.info("update_employee method")
     if request and request.is_json:
-        if request.args:
-          args = request.args
-          if args and is_valid_user(args):
-             print("processing input" + str(request.json))
-             status = update_employee_data(request.json, id)
-             if status:
-                logger.debug("employee has been updated successfully.")
-                return create_response(SUCCESS, UPDATED)
-             else:
-                logger.debug("employee failed to update")
-                return create_response(FAILED, UPDATED_FAILED)
+        if request.authorization:
+            auth = request.authorization
+            user_validation, is_active = USER.is_valid_user(auth)
+            if auth and user_validation:
+                if is_active:
+                    print("processing input" + str(request.json))
+                    status = EMP.update_employee_data(request.json, id)
+                    if status:
+                        logger.debug("employee has been updated successfully.")
+                        return create_response(SUCCESS, UPDATED)
+                    else:
+                        logger.debug("employee failed to update")
+                        return create_response(FAILED, UPDATED_FAILED)
+                else:
+                    return create_response(FAILED, NOT_ACTIVE)
+            else:
+                return create_response(FAILED, INVALID_USER)
+
         else:
             return create_response(FAILED, USER_MISSING)
 
     logger.debug(MISSING_DATA)
-    return create_response(FAILED, MISSING_DATA)
-
-
+    return create_response(FAILED, MISSING_DAT
 
 @app.route('/deleteEmployee/<string:email>', methods=['DELETE'])
 def delete_employee(email):
     logger.info("delete_employee method")
-    if request.args:
-        args = request.args
-        if args and is_valid_user(args):
-           if email:
-             status = delete_employee_data(email)
-             if status:
-                logger.debug("employee has been deleted successfully.")
-                return create_response(SUCCESS, DELETED)
-             else:
-                logger.debug("employee failed to delete")
-                return create_response(FAILED, DELETED_FAILED)
-
+    if request.authorization:
+        auth = request.authorization
+        user_validation, is_active = USER.is_valid_user(auth)
+        if auth and user_validation:
+            if is_active:
+                if email:
+                    status = EMP.delete_employee_data(email)
+                    if status:
+                        logger.debug("employee has been deleted successfully.")
+                        return create_response(SUCCESS, DELETED)
+                    else:
+                        logger.debug("employee failed to delete")
+                        return create_response(FAILED, EMAIL_NOT_VALID)
+            else:
+                return create_response(FAILED, NOT_ACTIVE)
         else:
-           logger.debug(INVALID_USER)
-           return create_response(FAILED, INVALID_USER)
-    return create_response(FAILED, USER_MISSING)
+            logger.debug(INVALID_USER)
+            return create_response(FAILED, INVALID_USER)
+    else:
+        return create_response(FAILED, USER_MISSING)
 
-@app.route('/getEmployee/<email>', methods=['GET'])
+@app.route('/getEmployee/<string:email>', methods=['GET'])
 def get_employee(email):
     logger.info("get_employee method")
-    if request.args:
-        args = request.args
-        if args and is_valid_user(args):
-          if email:
-             emp_data = get_employee_data(email)
-             if emp_data:
-                logger.debug("employee found")
-                return emp_data
-             else:
-                logger.debug("employee not found")
-                return create_response(FAILED, EMAIL_NOT_VALID)
-
+    if request.authorization:
+        auth = request.authorization
+        user_validation, is_active = USER.is_valid_user(auth)
+        if auth and user_validation:
+            if is_active:
+               if email:
+                    emp_data = EMP.get_employee_data(email)
+                    if emp_data:
+                        logger.debug("employee found")
+                        return jsonify(emp_data)
+                    else:
+                        logger.debug("employee not found")
+                        return create_response(FAILED, EMAIL_NOT_VALID)
+            else:
+                return create_response(FAILED, NOT_ACTIVE)
         else:
             logger.debug(INVALID_USER)
             return create_response(FAILED, INVALID_USER)
@@ -121,17 +155,13 @@ def get_employee(email):
     else:
         return create_response(FAILED, USER_MISSING)
 
-
 if __name__ == '__main__':
-    #app.run()
-    logging.info("Starting app")
-    app.run(host="localhost", port="5000", debug=True)
-    logging.info("Started app")
+    app.run(host="localhost", port="5002", debug=True)
 
 """
-GET http://localhost:5000/getAllEmployee
-POST http://localhost:5000/registerEmployee
-PUT http://localhost:5000/updateEmployee
-DELETE http://localhost:5000/deleteEmployee
-GET http://localhost:5000/getEmployee
+GET http://localhost:5002/getAllEmployee
+POST http://localhost:5002/registerEmployee
+PUT http://localhost:5002/updateEmployee
+DELETE http://localhost:5002/deleteEmployee
+GET http://localhost:5002/getEmployee
 """
